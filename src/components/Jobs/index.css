@@ -1,0 +1,9 @@
+.jobs-main-container {
+  width: 100%;
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .jobs-main-container {
+    flex-direction: column;
+  }
+}

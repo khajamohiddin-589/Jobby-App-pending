@@ -1,0 +1,148 @@
+.filtering-main-container {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 576px) {
+  .filtering-main-container {
+    width: 30%;
+  }
+}
+
+.filtering-search-container {
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  margin-top: 10px;
+  width: 90%;
+}
+.filtering-search-input-mobile-view {
+  padding-left: 10px;
+  padding-right: 5px;
+  outline: none;
+  border-radius: 4px;
+  background-color: black;
+  width: 90%;
+  height: 100%;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  color: white;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+.search-icon {
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+.icon-button {
+  border: none;
+  background-color: transparent;
+}
+.user-profile-card {
+  margin-top: 15px;
+  border-radius: 10px;
+  height: 200px;
+  width: 90%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+}
+@media screen and (min-width: 576px) {
+  .user-profile-card {
+    height: 200px;
+    width: 80%;
+  }
+}
+
+.profile-username {
+  font-family: 'Roboto';
+  color: #4f46e5;
+  font-weight: 600;
+  font-size: 19px;
+}
+.short-bio {
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.text-details-container {
+  margin-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.line {
+  margin-top: 15px;
+  border: none;
+  height: 2px;
+  width: 92%;
+  background-color: white;
+}
+.types-of-employees {
+  width: 90%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.employees-types-heading {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.each-employee-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.employee-checkbox {
+  height: 20px;
+  width: 20px;
+}
+.employee-label {
+  margin-left: 10px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.failure-view-user-profile {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-container {
+  height: 200px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-profile-retry-button {
+  height: 40px;
+  width: 30%;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
